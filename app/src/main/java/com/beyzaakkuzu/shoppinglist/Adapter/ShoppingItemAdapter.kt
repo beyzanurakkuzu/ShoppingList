@@ -43,7 +43,7 @@ class ShoppingItemAdapter(
         }
 
     }
-    
+
     inner class ShoppingViewHolder(itemView: View): RecyclerView.ViewHolder(itemView)
 
 

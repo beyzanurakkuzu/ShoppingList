@@ -1,15 +1,16 @@
-package com.beyzaakkuzu.shoppinglist
+package com.beyzaakkuzu.shoppinglist.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.beyzaakkuzu.shoppinglist.data.db.entities.Shopping
 
 
 @Database(entities = [Shopping::class], version = 1)
 abstract class ShoppingDatabase: RoomDatabase() {
 
-    abstract fun getShoppingDao():ShoppingDao
+    abstract fun getShoppingDao(): ShoppingDao
 
     companion object {
         @Volatile

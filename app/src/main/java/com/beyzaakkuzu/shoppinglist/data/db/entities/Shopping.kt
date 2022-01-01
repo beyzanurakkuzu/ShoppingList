@@ -1,4 +1,4 @@
-package com.beyzaakkuzu.shoppinglist
+package com.beyzaakkuzu.shoppinglist.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
